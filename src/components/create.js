@@ -32,7 +32,9 @@ export default function Create() {
                 <Form.Field>
                     <Checkbox label='I agree to the Terms and Conditions' onChange={(e) => setCheckbox(!checkbox)}/>
                 </Form.Field>
+                
                 <Button onClick={postData} type='submit'>Submit</Button>
+               
             </Form>
         </div>
     )
